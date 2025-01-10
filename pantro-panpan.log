@@ -1,0 +1,26 @@
+ANNOVAR Version:
+	$Date: 2020-06-07 23:56:37 -0400 (Sun,  7 Jun 2020) $
+ANNOVAR Information:
+	For questions, comments, documentation, bug reports and program update, please visit http://www.openbioinformatics.org/annovar/
+ANNOVAR Command:
+	../annotate_variation.pl --geneanno --buildver pantro -dbtype refGene syri_pan.avinput --outfile pantro-panpan ../pantrodb/
+ANNOVAR Started:
+	Mon Dec  2 11:15:04 2024
+NOTICE: Output files are written to pantro-panpan.variant_function, pantro-panpan.exonic_variant_function
+NOTICE: Reading gene annotation from ../pantrodb/pantro_refGene.txt ... Done with 142518 transcripts (including 33122 without coding sequence annotation) for 35443 unique genes
+NOTICE: Processing next batch with 5000000 unique variants in 5000000 input lines
+NOTICE: Finished analyzing 1000000 query variants
+NOTICE: Finished analyzing 2000000 query variants
+NOTICE: Finished analyzing 3000000 query variants
+NOTICE: Finished analyzing 4000000 query variants
+NOTICE: Processing next batch with 5000000 unique variants in 5000000 input lines
+NOTICE: Finished analyzing 1000000 query variants
+NOTICE: Finished analyzing 2000000 query variants
+NOTICE: Finished analyzing 3000000 query variants
+NOTICE: Finished analyzing 4000000 query variants
+NOTICE: Processing next batch with 4040476 unique variants in 4040476 input lines
+NOTICE: Finished analyzing 1000000 query variants
+NOTICE: Finished analyzing 2000000 query variants
+NOTICE: Finished analyzing 3000000 query variants
+NOTICE: Finished analyzing 4000000 query variants
+NOTICE: Variants with invalid input format are written to pantro-panpan.invalid_input
