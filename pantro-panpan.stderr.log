@@ -1,0 +1,27 @@
+NOTICE: the --polish argument is set ON automatically (use --nopolish to change this behavior)
+-----------------------------------------------------------------
+NOTICE: Processing operation=g protocol=refGene
+
+NOTICE: Running with system command <annotate_variation.pl -geneanno -buildver pantro -dbtype refGene -outfile pantro-panpan.refGene -exonsort -nofirstcodondel ./syri_pantro.avinput ../../pantrodb/>
+NOTICE: Output files are written to pantro-panpan.refGene.variant_function, pantro-panpan.refGene.exonic_variant_function
+NOTICE: Reading gene annotation from ../../pantrodb/pantro_refGene.txt ... Done with 142518 transcripts (including 33122 without coding sequence annotation) for 35443 unique genes
+NOTICE: Processing next batch with 5000000 unique variants in 5000000 input lines
+NOTICE: Finished analyzing 1000000 query variants
+NOTICE: Finished analyzing 2000000 query variants
+NOTICE: Finished analyzing 3000000 query variants
+NOTICE: Finished analyzing 4000000 query variants
+NOTICE: Processing next batch with 5000000 unique variants in 5000000 input lines
+NOTICE: Finished analyzing 1000000 query variants
+NOTICE: Finished analyzing 2000000 query variants
+NOTICE: Finished analyzing 3000000 query variants
+NOTICE: Finished analyzing 4000000 query variants
+NOTICE: Processing next batch with 4040476 unique variants in 4040476 input lines
+NOTICE: Finished analyzing 1000000 query variants
+NOTICE: Finished analyzing 2000000 query variants
+NOTICE: Finished analyzing 3000000 query variants
+NOTICE: Finished analyzing 4000000 query variants
+NOTICE: Variants with invalid input format are written to pantro-panpan.refGene.invalid_input
+
+NOTICE: Running with system command <coding_change.pl  pantro-panpan.refGene.exonic_variant_function.orig ../../pantrodb//pantro_refGene.txt ../../pantrodb//pantro_refGeneMrna.fa -alltranscript -out pantro-panpan.refGene.fa -newevf pantro-panpan.refGene.exonic_variant_function>
+-----------------------------------------------------------------
+NOTICE: Multianno output file is written to pantro-panpan.pantro_multianno.csv
